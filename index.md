@@ -5,6 +5,15 @@
 #### by the time he did this activiy commited the changes 
 #### the food got cooked. 
 
+Things to do 
+- [] Gather the ingredients
+- [] Cook the Daal
+- [] Add Spinach
+- [] Prepare the Tadka (Tempering)
+- [] Combine Tadka with Daal
+- [] Add Lemon Juice and Garnish
+- [] serve hot hot daal with rice
+
 ![Image of Palak Daal](https://www.indianhealthyrecipes.com/wp-content/uploads/2021/09/dal-palak-spinach-dal.webp)
 
 ``` python
