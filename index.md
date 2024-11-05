@@ -4,3 +4,5 @@
 ### 05-11-2024 
 #### he did this activiy commited the changes 
 #### and food got cooked. 
+
+![Image of Palak Daal](https://www.indianhealthyrecipes.com/wp-content/uploads/2021/09/dal-palak-spinach-dal.webp)
