@@ -35,31 +35,4 @@
             self.add_step(f"Add {item} and cook until soft and fragrant.")
         
         self.add_step("Add red chili powder and coriander powder to the tadka.")
-    
-    def combine_daal_and_tadka(self):
-        self.add_step("Pour the tadka into the cooked daal and spinach mixture.")
-        self.add_step("Add salt to taste and mix well.")
-        self.add_step("Simmer for a few more minutes to let the flavors combine.")
-    
-    def finish_dish(self):
-        self.add_step("Turn off the heat and add lemon juice.")
-        self.add_step("Garnish with fresh cilantro.")
-    
-    def cook(self):
-        # Method to go through each step
-        for index, step in enumerate(self.steps, 1):
-            print(f"Step {index}: {step}")
-    
-    Instantiate and cook
-    palak_daal = PalakDaalRecipe()
-    palak_daal.prepare_ingredients()
-    palak_daal.cook_daal()
-    palak_daal.add_spinach()
-    palak_daal.make_tadka()
-    palak_daal.combine_daal_and_tadka()
-    palak_daal.finish_dish()
-    
-    # Print the recipe steps
-    palak_daal.cook()
-
 '''
