@@ -8,30 +8,7 @@
 ![Image of Palak Daal](https://www.indianhealthyrecipes.com/wp-content/uploads/2021/09/dal-palak-spinach-dal.webp)
 
 ''' 
-# Define a class PalakDaalRecipe:
-    def __init__(self):
-        # Ingredients
-        self.ingredients = {
-            "spinach": 2,           # cups
-            "daal": 1,              # cup
-            "water": 3,             # cups
-            "turmeric_powder": 0.5, # teaspoon
-            "salt": 1,              # teaspoon or to taste
-            "oil": 2,               # tablespoons
-            "mustard_seeds": 0.5,   # teaspoon
-            "cumin_seeds": 0.5,     # teaspoon
-            "garlic": 3,            # cloves
-            "ginger": 1,            # inch
-            "green_chili": 1,       # optional
-            "onion": 1,             # medium
-            "tomato": 1,            # medium
-            "red_chili_powder": 0.5, # teaspoon
-            "coriander_powder": 0.5, # teaspoon
-            "lemon_juice": 1,       # tablespoon
-            "fresh_cilantro": 2     # tablespoons
-        }
-      self.steps = []  # This will store each cooking step
-    
+
     def add_step(self, step):
         self.steps.append(step)
     
@@ -73,16 +50,16 @@
         for index, step in enumerate(self.steps, 1):
             print(f"Step {index}: {step}")
     
-# Instantiate and cook
-palak_daal = PalakDaalRecipe()
-palak_daal.prepare_ingredients()
-palak_daal.cook_daal()
-palak_daal.add_spinach()
-palak_daal.make_tadka()
-palak_daal.combine_daal_and_tadka()
-palak_daal.finish_dish()
-
-# Print the recipe steps
-palak_daal.cook()
+    Instantiate and cook
+    palak_daal = PalakDaalRecipe()
+    palak_daal.prepare_ingredients()
+    palak_daal.cook_daal()
+    palak_daal.add_spinach()
+    palak_daal.make_tadka()
+    palak_daal.combine_daal_and_tadka()
+    palak_daal.finish_dish()
+    
+    # Print the recipe steps
+    palak_daal.cook()
 
 '''
