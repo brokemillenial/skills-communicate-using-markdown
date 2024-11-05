@@ -7,7 +7,7 @@
 
 ![Image of Palak Daal](https://www.indianhealthyrecipes.com/wp-content/uploads/2021/09/dal-palak-spinach-dal.webp)
 
-''' python
+``` python
     def add_step(self, step):
         self.steps.append(step)
     
@@ -34,4 +34,4 @@ tadka_ingredients = ["garlic", "ginger", "green_chili", "onion", "tomato"]
             self.add_step(f"Add {item} and cook until soft and fragrant.")
         
 self.add_step("Add red chili powder and coriander powder to the tadka.")
-    '''
+    ```
